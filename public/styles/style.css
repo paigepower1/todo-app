@@ -528,9 +528,26 @@ template {
 body {
   font-size: 16px; }
 
-.container {
+.wrapper {
+  padding-top: 20px;
   max-width: 900px;
-  margin: 0 auto; }
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fff; }
 
-body {
-  background: red; }
+h1 {
+  font-size: 60px; }
+
+input {
+  padding: 10px 30px; }
+
+.addBtn, .removeBtn {
+  padding: 16px 40px;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid #000;
+  margin: 5px; }
+
+li {
+  list-style: circle; }

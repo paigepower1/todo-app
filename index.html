@@ -4,13 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>HTML/CSS/JS Boilerplate</title>
+	<title>Todo app pure JavaScript</title>
 	<link rel="stylesheet" href="./public/styles/style.css">
 </head>
 <body>
 
-	<h1>HTML/CSS/JS Boilerplate</h1>
-	<p>Let's code!</p>
+		
+	<div class="wrapper">
+		<h1>todos</h1>
+		<input id="text" type="text" placeholder="Add todo...">
+		<button class="addBtn"
+		id="add">Add Todo</button>
+		<button class="removeBtn" id="removeAll">Remove All</button>
+		<ul id="list"></ul>
+	</div>
+
 
 	<script src="public/scripts/main.js"></script>
 </body>
