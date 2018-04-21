@@ -540,7 +540,8 @@ h1 {
   font-size: 60px; }
 
 input {
-  padding: 10px 30px; }
+  padding: 10px 30px;
+  border: 1px solid #000; }
 
 .addBtn, .removeBtn {
   padding: 16px 40px;
